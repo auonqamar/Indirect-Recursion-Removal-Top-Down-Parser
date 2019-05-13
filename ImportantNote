@@ -1,0 +1,3 @@
+for more complex indirect recursive productions, place the while(removeIndirect()){} instruction into a for loop as written in following:
+for(int i=0;i<productions.length;i++){
+        while(removeIndirect()){}}
